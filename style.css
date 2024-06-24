@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+MX:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+MX:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins';
+}
+.service-container{
+    width: 80%;
+    margin: auto;
+    padding: 30px 20px;
+    
+}
+.service-container .header{
+    text-align: center;
+    margin: 10px 0;
+    font-size: 38px;
+    color: crimson;
+}
+.service-container .header-para{
+    text-align: center;
+    color: red;
+
+}
+.service-container .first-para{
+    color: #29463e;
+    margin-top:50px ;
+    text-align: left;
+}
+.service-row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding:    30px;
+    
+}
+.service-row .service-col{
+    width: 600px;
+    margin-top: 20px;
+    padding: 30px 10;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px #babecc,
+    -10px -10px 20px #ffffff ;
+}
+.service-col h2{
+    text-align: center;
+    padding: 20px 0;
+    color: #030725;
+    
+}
+.service-col p{
+    padding:30px 20px ;
+}
+.service-col ol{
+    padding: 10px 30px;
+    
+}
+.service-col ol li{
+    padding: 20px 0;
+}
+.table-title{
+    color: #478584;
+    text-align: center;
+    margin: 40px 0;
+}
+.service-col span{
+    padding: 0 20px;
+}
+.series-table{
+    width: 100%;
+    border: 2px solid #333;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+.series-table thead{
+    padding: 20px;
+}
+.series-table thead th{
+    padding: 20px;
+    font-size: 20px;
+    color: #29463e;
+    border: 2px solid #333;
+
+}
+.series-table tbody{
+    padding: 10px 30px;
+}
+.series-table tbody td{
+    padding: 20px 30px;
+    border: 2px solid #333;
+}
+.normal-para{
+    margin: 25px 0;
+    font-weight: 500;
+    font-size: 22px;
+}
+.footer-para{
+    margin: 20px 0;
+}
+.service-ul li{
+    padding: 20px 0;
+    font-size: 18px;
+}
+.last-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    padding: 20px 30px;
+    width: 100%;
+    gap: 0;
+}
+.last-content .content{
+    width: 500px;
+    border: 2px solid black;
+    height: 700px;
+    padding: 20px 30px;
+}
+.last-content .content span{
+    color: crimson;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 600;
+}
